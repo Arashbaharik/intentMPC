@@ -1,4 +1,6 @@
 # intentMPC
+
+*You need to have Casadi on Matlab to run the code*
 1) First run "iniRMPC.m" to generate "initialRMPC.mat" as a feasible initial guess for the MPC.
 
 2) Classic MPC.m ,  ScenarioMPC.m and nominaMPC.m provide Matlab codes for the classic MPC, scenario-tree MPC, and nominal path (without safety constraint), respectively. These codes generate "determ.mat", "real{1:20}.mat" and "nominal.mat" data, respectively. Note that "real{1:20}.mat" corresponds to different uncertainties and "real10.mat" corresponds to the case without uncertainty. 
