@@ -1,4 +1,6 @@
 # intentMPC
+%%%% Based on paper: Robust Model Predictive Control for Aircraft Intent-Aware Collision Avoidance, available here: https://www.arxiv.org/abs/2408.06999. %%%%%%%
+
 
 *You need to have Casadi on Matlab to run the code*
 1) First run "iniRMPC.m" to generate "initialRMPC.mat" as a feasible initial guess for the MPC.
